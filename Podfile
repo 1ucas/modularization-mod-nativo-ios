@@ -8,7 +8,7 @@ target 'ModuloNativoiOS' do
   use_frameworks!
 
   # Pods for ModuloNativoiOS
-  pod 'ActionsiOS'
+  pod 'ActionsiOS', '1.0.2'
 
   target 'ModuloNativoiOSTests' do
     # Pods for testing
