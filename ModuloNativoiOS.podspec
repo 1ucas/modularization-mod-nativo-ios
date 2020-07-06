@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "ModuloNativoiOS"
-    s.version          = "1.0.3"
+    s.version          = "1.0.4"
     s.summary          = "Modulo de exemplo nativo iOS"
     s.homepage         = "https://github.com/1ucas/modularization-mod-nativo-ios"
     s.license          = 'Code is MIT.'
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
     s.resources = ['ModuloNativoiOS/StoryboardNativo.storyboard']
     
-    s.dependency 'ActionsiOS', '1.0.2'
+    s.dependency 'ActionsiOS', '1.0.3'
 
     s.pod_target_xcconfig = {
       'PRODUCT_BUNDLE_IDENTIFIER': 'com.manobray.ModuloNativoiOS'
