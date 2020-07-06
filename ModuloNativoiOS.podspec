@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   
     s.swift_versions = ['5.1', '5.2']
 
-    s.source_files = 'ModuloNativoiOS/*.swift, ModuloNativoiOS/*.storyboard,'
+    s.source_files = 'ModuloNativoiOS/*.swift', 'ModuloNativoiOS/*.storyboard,'
     
     s.dependency 'ActionsiOS', '1.0.2'
   
