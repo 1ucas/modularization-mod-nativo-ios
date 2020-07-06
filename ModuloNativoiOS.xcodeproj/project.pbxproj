@@ -10,6 +10,8 @@
 		A09316D024AFD28100C14F89 /* ModuloNativoiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09316C624AFD28100C14F89 /* ModuloNativoiOS.framework */; };
 		A09316D524AFD28100C14F89 /* ModuloNativoiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09316D424AFD28100C14F89 /* ModuloNativoiOSTests.swift */; };
 		A09316D724AFD28100C14F89 /* ModuloNativoiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = A09316C924AFD28100C14F89 /* ModuloNativoiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A09316E124AFD2D800C14F89 /* TelaNativaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09316E024AFD2D800C14F89 /* TelaNativaViewController.swift */; };
+		A09316E324AFD2F700C14F89 /* StoryboardNativo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09316E224AFD2F700C14F89 /* StoryboardNativo.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		A09316CF24AFD28100C14F89 /* ModuloNativoiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModuloNativoiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A09316D424AFD28100C14F89 /* ModuloNativoiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuloNativoiOSTests.swift; sourceTree = "<group>"; };
 		A09316D624AFD28100C14F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A09316E024AFD2D800C14F89 /* TelaNativaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaNativaViewController.swift; sourceTree = "<group>"; };
+		A09316E224AFD2F700C14F89 /* StoryboardNativo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryboardNativo.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				A09316C924AFD28100C14F89 /* ModuloNativoiOS.h */,
 				A09316CA24AFD28100C14F89 /* Info.plist */,
+				A09316E024AFD2D800C14F89 /* TelaNativaViewController.swift */,
+				A09316E224AFD2F700C14F89 /* StoryboardNativo.storyboard */,
 			);
 			path = ModuloNativoiOS;
 			sourceTree = "<group>";
@@ -148,6 +154,7 @@
 				TargetAttributes = {
 					A09316C524AFD28100C14F89 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 					A09316CE24AFD28100C14F89 = {
 						CreatedOnToolsVersion = 11.5;
@@ -178,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A09316E324AFD2F700C14F89 /* StoryboardNativo.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A09316E124AFD2D800C14F89 /* TelaNativaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +349,7 @@
 		A09316DB24AFD28100C14F89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = XCKQJC262X;
@@ -356,6 +366,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.manobray.ModuloNativoiOS;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +375,7 @@
 		A09316DC24AFD28100C14F89 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = XCKQJC262X;
@@ -388,6 +400,7 @@
 		A09316DE24AFD28100C14F89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XCKQJC262X;
 				INFOPLIST_FILE = ModuloNativoiOSTests/Info.plist;
@@ -406,6 +419,7 @@
 		A09316DF24AFD28100C14F89 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XCKQJC262X;
 				INFOPLIST_FILE = ModuloNativoiOSTests/Info.plist;
