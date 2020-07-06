@@ -1,7 +1,7 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '10.3'
 
-source 'https://github.com/1ucas/private-cocoapods-specs'
+source 'https://github.com/1ucas/private-cocoapods-specs.git'
 
 target 'ModuloNativoiOS' do
   # Comment the next line if you don't want to use dynamic frameworks
