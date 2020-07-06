@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "ModuloNativoiOS"
-    s.version          = "1.0.1"
+    s.version          = "1.0.2"
     s.summary          = "Modulo de exemplo nativo iOS"
     s.homepage         = "https://github.com/1ucas/modularization-mod-nativo-ios"
     s.license          = 'Code is MIT.'
