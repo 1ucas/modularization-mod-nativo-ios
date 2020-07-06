@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ActionsiOS
 
 class TelaNativaViewController: UIViewController {
 
@@ -17,7 +18,7 @@ class TelaNativaViewController: UIViewController {
     }
     
     @IBAction func clicouNoBotao(_ sender: UIButton) {
-        
+        SharedRouter.sair()
     }
     
 }

@@ -1,0 +1,16 @@
+PODS:
+  - ActionsiOS (1.0.1)
+
+DEPENDENCIES:
+  - ActionsiOS
+
+SPEC REPOS:
+  https://github.com/1ucas/private-cocoapods-specs.git:
+    - ActionsiOS
+
+SPEC CHECKSUMS:
+  ActionsiOS: c37c4a49eb578c6888124b3396116c45b06cb257
+
+PODFILE CHECKSUM: 089e8858e4ae252e6a83f4b10667e073246f3e2f
+
+COCOAPODS: 1.9.3
