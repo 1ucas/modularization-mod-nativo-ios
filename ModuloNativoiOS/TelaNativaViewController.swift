@@ -9,7 +9,7 @@
 import UIKit
 import ActionsiOS
 
-public class TelaNativaViewController: UIViewController {
+public class TelaNativaViewController: CallbackViewController {
 
     public override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +18,7 @@ public class TelaNativaViewController: UIViewController {
     }
     
     @IBAction func clicouNoBotao(_ sender: UIButton) {
+        callback?("Nativo");
         SharedRouter.sair()
     }
     
