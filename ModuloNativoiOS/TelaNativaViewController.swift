@@ -9,9 +9,9 @@
 import UIKit
 import ActionsiOS
 
-class TelaNativaViewController: UIViewController {
+public class TelaNativaViewController: UIViewController {
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.

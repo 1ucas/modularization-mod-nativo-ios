@@ -14,6 +14,8 @@ Pod::Spec.new do |s|
     s.swift_versions = ['5.1', '5.2']
 
     s.source_files = 'ModuloNativoiOS/*.swift'
+    
+    s.dependency = 'ActonsiOS', '1.0.2'
   
     s.frameworks = 'UIKit'
   end
